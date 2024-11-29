@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  imagePath: <ACCOUNT-ID>.ecr.us-east-1.amazonaws.com/webapp-lab/
+  imagePath: <ACCOUNT-ID>.dkr.ecr.us-east-1.amazonaws.com/webapp-lab/
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: latest

@@ -1,0 +1,26 @@
+# Ignore Helm package and chart build directories
+charts/
+*.tgz
+*.tar.gz
+
+# Ignore Helm specific files
+helmfile.lock
+*.bak
+
+# Ignore IDE or editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore the Helm deployment history and cache
+.history/
+.cache/
+
+# Ignore files containing sensitive information
+*.tfvars
+*.yaml
